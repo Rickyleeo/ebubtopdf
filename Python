@@ -1,0 +1,17 @@
+import math
+
+def celsius_to_fahrenheit(celsius):
+    """将摄氏度转换为华氏度"""
+    return (celsius * 9/5) + 32
+
+def calculate_circle_area(radius):
+    """计算圆面积"""
+    return math.pi * radius ** 2
+
+if __name__ == "__main__":
+    test_temps = [0, 25, 37, 100]
+    print("--- 转换测试 ---")
+    for t in test_temps:
+        print(f"{t}°C = {celsius_to_fahrenheit(t)}°F")
+    
+    print(f"\n半径为 5 的圆面积: {calculate_circle_area(5):.2f}")
