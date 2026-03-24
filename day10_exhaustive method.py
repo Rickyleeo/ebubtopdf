@@ -1,4 +1,3 @@
-
 if __name__ == "__main__":
     # i represents the first two digits, j represents the last two digits, k is the license plate number
     # i 代表前两位数字，j 代表后两位数字，k 代表车牌号
